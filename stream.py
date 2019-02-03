@@ -70,8 +70,8 @@ def print_callback(message, context):
             message = "Subject: Phishing report for Your Subscribed Domain : '%s' \n\n" % (dc)
             message += "URL detected: '%s'   |   Certification Authority: '%s'   |   Certificate Index: '%s'   |   Certificate Log: '%s'" % (domain, str(scn), str(cii), str(clname))
 
-            s.sendmail("internship760@gmail.com", str(mto, message)
-            print("********mail sent*********")
+            s.sendmail("internship760@gmail.com", str(mto, message))
+            print("mail sent")
 
             print(".")
             print(".")
